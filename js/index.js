@@ -7,8 +7,8 @@ const influencerData = [
             { id: 'yuna_house_', followers: '4.6만', profileImg: 'resources/main/influencer/instagram-Icon.png', feedImg: 'resources/main/influencer/feedImg/yuna_house__feedImg.jpg', customLink: 'https://www.instagram.com/yuna_house_' },
             { id: 'minmin_tour', followers: '5.5만', profileImg: 'resources/main/influencer/instagram-Icon.png', feedImg: 'resources/main/influencer/feedImg/minmin_tour_feedImg.jpg', customLink: 'https://www.instagram.com/minmin_tour' },
             { id: 'weekndhome', followers: '4.1만', profileImg: 'resources/main/influencer/instagram-Icon.png', feedImg: 'resources/main/influencer/feedImg/weekndhome_feedImg.jpg', customLink: 'https://www.instagram.com/weekndhome' },
-            { id: 'vivir_ann_', followers: '17.2만', profileImg: 'resources/main/influencer/instagram-Icon.png', feedImg: 'resources/main/influencer/feedImg/vivir_ann__feedImg.jpg', customLink: 'https://www.instagram.com/vivir_ann_' }, <!-- here -->
-            { id: 'jiutable', followers: '14만', profileImg: 'resources/main/influencer/instagram-Icon.png', feedImg: 'resources/main/influencer/feedImg/jiutable_feedImg.jpg', customLink: 'https://www.instagram.com/jiutable' }, <!-- here -->
+            { id: 'vivir_ann_', followers: '17.2만', profileImg: 'resources/main/influencer/instagram-Icon.png', feedImg: 'resources/main/influencer/feedImg/vivir_ann__feedImg.jpg', customLink: 'https://www.instagram.com/vivir_ann_' },
+            { id: 'jiutable', followers: '14만', profileImg: 'resources/main/influencer/instagram-Icon.png', feedImg: 'resources/main/influencer/feedImg/jiutable_feedImg.jpg', customLink: 'https://www.instagram.com/jiutable' },
             { id: 'seo_do.a', followers: '11.6만', profileImg: 'resources/main/influencer/instagram-Icon.png', feedImg: 'resources/main/influencer/feedImg/seo_do.a_feedImg.jpg', customLink: 'https://www.instagram.com/seo_do.a' },
             { id: '___e.you', followers: '9.4만', profileImg: 'resources/main/influencer/instagram-Icon.png', feedImg: 'resources/main/influencer/feedImg/e.you_feedImg.jpg', customLink: 'https://www.instagram.com/___e.you' }
         ];

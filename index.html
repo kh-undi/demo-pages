@@ -1,11 +1,30 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="ko" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>UNX | Global Branding Partnerships</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>UNX | 공동구매 밴더사 · 브랜드-인플루언서 연결 전문</title>
+
+    <meta name="description" content="UNX는 브랜드와 인플루언서를 연결하는 공동구매 전문 밴더사입니다. 공동구매 기획, 운영, 정산까지 원스톱 진행합니다.">
+    <meta name="keywords" content="공동구매 밴더사, 공동구매 대행, 인플루언서 공동구매, 브랜드 공동구매, 공동구매 유통">
+    <meta name="author" content="UNX">
+    <meta name="robots" content="index, follow">
+
+    <link rel="canonical" href="https://unx-company.com/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="UNX | 공동구매 밴더사">
+    <meta property="og:description" content="브랜드와 인플루언서를 연결하는 공동구매 전문 파트너 UNX">
+    <meta property="og:url" content="https://unx-company.com/">
+    <meta property="og:image" content="https://unx-company.com/og-image.jpg">
+
+    <link rel="icon" href="/resources/common/favicon.ico">
+    <link rel="stylesheet" href="/css/style.css">
+
     <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <!-- Google Fonts - Plus Jakarta Sans -->
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
@@ -20,12 +39,12 @@
         body {
             font-family: 'Inter', sans-serif;
             background-color: #ffffff;
-            color: #0a0a0a;
+            color: rgba(255, 255, 255, 0.05);
         }
-        .font-orbitron { 
+         .font-orbitron { 
             font-family: 'Plus Jakarta Sans', sans-serif; 
-            letter-spacing: -0.02em;
-        }
+            /* letter-spacing: -0.02em; */
+        } 
         .glass {
             background: rgba(255, 255, 255, 0.7);
             backdrop-filter: blur(10px);
@@ -37,7 +56,8 @@
 
         .text-gradient {
             background: linear-gradient(90deg, rgb(8, 145, 178), #4f46e5);
-            -webkit-background-clip: text;
+            -webkit-background-clip: text; 
+            background-clip: text;
             -webkit-text-fill-color: transparent;
         }
         
@@ -93,15 +113,6 @@
             clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
         }
     </style>
-<script type="importmap">
-{
-  "imports": {
-    "react": "https://esm.sh/react@^19.2.4",
-    "@google/genai": "https://esm.sh/@google/genai@^1.39.0",
-    "react/": "https://esm.sh/react@^19.2.4/"
-  }
-}
-</script>
 </head>
 <body class="selection:bg-cyan-500 selection:text-white">
 
@@ -120,7 +131,7 @@
                     <a href="javascript:void(0)" onclick="window.smoothScrollTo('services')" class="hover:text-cyan-600 transition-colors uppercase">Why UNX?</a>
                     <a href="javascript:void(0)" onclick="window.smoothScrollTo('partners')" class="hover:text-cyan-600 transition-colors uppercase">Partners</a>
                     <a href="javascript:void(0)" onclick="window.smoothScrollTo('contact')" class="hover:text-cyan-600 transition-colors uppercase">Contact</a>
-                    <a href="product.html" class="px-6 py-2.5 bg-black text-white font-orbitron text-sm font-bold hover:bg-cyan-600 transition-all duration-300 shadow-lg block uppercase">PRODUCT</a>
+                    <a href="product.html" class="px-6 py-2.5 bg-black text-white font-orbitron text-sm font-bold hover:bg-cyan-600 transition-all duration-300 shadow-lg block uppercase" style="letter-spacing: -0.02em">PRODUCT</a>
                 </div>
 
                 <div class="hidden md:block w-32"></div>
@@ -619,7 +630,7 @@
                                 </label>
                             </div>
                         </div>
- 
+
                         <!-- Grid Fields -->
                         <div class="grid md:grid-cols-2 gap-6">
                             <div class="space-y-2">

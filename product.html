@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UNX | Global Branding Partnerships</title>
+    <title>UNX | 공동구매 진행 상품 · 브랜드 협업 사례</title>
+
+    <meta name="description" content="UNX가 진행한 공동구매 상품 및 브랜드 협업 사례를 소개합니다.">
+    <meta name="robots" content="index, follow">
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="UNX | 공동구매 진행 상품">
+    <meta property="og:description" content="브랜드와 함께 진행한 공동구매 상품 리스트">
+    <meta property="og:url" content="https://unx-company.com/product.html">
+    <meta property="og:image" content="https://unx-company.com/og-image.jpg">
+
+    <link rel="canonical" href="https://unx-company.com/product.html">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/resources/common/favicon.ico" type="image/x-icon">
     <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <!-- Google Fonts - Plus Jakarta Sans -->
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
@@ -16,13 +29,13 @@
         body {
             font-family: 'Inter', sans-serif;
             background-color: #ffffff;
-            color: #0a0a0a;
+            color: rgba(255, 255, 255, 0.05);
             overflow-x: hidden;
         }
-        .font-orbitron { 
+         .font-orbitron { 
             font-family: 'Plus Jakarta Sans', sans-serif; 
-            letter-spacing: -0.02em;
-        }
+            /* letter-spacing: -0.02em; */
+        } 
         .glass {
             background: rgba(255, 255, 255, 0.7);
             backdrop-filter: blur(10px);
@@ -89,7 +102,7 @@
         @media (max-width: 768px) {
             .modal-content-container {
                 max-width: 500px;
-                height: 96vh; /* description 영역 확보를 위해 전체 높이 상향 (80vh -> 96vh) */
+                /* height: 96vh; description 영역 확보를 위해 전체 높이 상향 (80vh -> 96vh) */
                 max-height: 96vh;
             }
         }
@@ -106,15 +119,6 @@
             border-radius: 10px;
         }
     </style>
-<script type="importmap">
-{
-  "imports": {
-    "react": "https://esm.sh/react@^19.2.4",
-    "@google/genai": "https://esm.sh/@google/genai@^1.39.0",
-    "react/": "https://esm.sh/react@^19.2.4/"
-  }
-}
-</script>
 </head>
 <body class="selection:bg-cyan-500 selection:text-white">
 
@@ -133,7 +137,7 @@
                     <a href="index.html#services" class="hover:text-cyan-600 transition-colors uppercase">Why UNX?</a>
                     <a href="index.html#partners" class="hover:text-cyan-600 transition-colors uppercase">Partners</a>
                     <a href="index.html#contact" class="hover:text-cyan-600 transition-colors uppercase">Contact</a>
-                    <a href="product.html" class="px-6 py-2.5 bg-black text-white font-orbitron text-sm font-bold hover:bg-cyan-600 transition-all duration-300 shadow-lg block uppercase">PRODUCT</a>
+                    <a href="product.html" class="px-6 py-2.5 bg-black text-white font-orbitron text-sm font-bold hover:bg-cyan-600 transition-all duration-300 shadow-lg block uppercase" style="letter-spacing: -0.02em">PRODUCT</a>
                 </div>
 
                 <div class="hidden md:block w-32"></div>
@@ -385,7 +389,7 @@
                         sectionHtml += `
                             <div class="product-card group cursor-pointer" onclick="openProductModal(${globalIndex})">
                                 <div class="aspect-[3/4] overflow-hidden bg-zinc-50 rounded-2xl mb-6 shadow-sm border border-zinc-100">
-                                    <img src="${prod.imageUrl}" class="w-full h-full object-cover" alt="${prod.name}" onerror="this.src='resources/common/error-img.png?w=600&h=800&fit=crop'">
+                                    <img src="${prod.imageUrl}" class="w-full h-full object-cover" alt="${prod.name}" onerror="this.src='resources/common/error-img.png?w=600&h=800&fit=crop?w=600&h=800&fit=crop'">
                                 </div>
                                 <div class="space-y-2 px-1 text-left">
                                     <p class="text-[10px] font-bold text-cyan-600 uppercase tracking-widest font-orbitron">${prod.companyName || 'UNX PARTNER'}</p>
