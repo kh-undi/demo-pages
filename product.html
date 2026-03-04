@@ -29,7 +29,7 @@
         body {
             font-family: 'Inter', sans-serif;
             background-color: #ffffff;
-            color: rgba(255, 255, 255, 0.05);
+            color: rgb(0, 0, 0);
             overflow-x: hidden;
         }
          .font-orbitron { 
@@ -40,6 +40,9 @@
             background: rgba(255, 255, 255, 0.7);
             backdrop-filter: blur(10px);
             border: 1px solid rgba(0, 0, 0, 0.05);
+        }
+        .nav-body {
+            color: rgba(255, 255, 255, 0.05);
         }
         
         /* 제품 카드 호버 애니메이션 */
@@ -123,7 +126,7 @@
 <body class="selection:bg-cyan-500 selection:text-white">
 
     <!-- Navbar -->
-    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-500 py-6 md:py-8 bg-transparent">
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-500 py-6 md:py-8 bg-transparent nav-body">
         <div class="container mx-auto px-6">
             <div class="flex items-center justify-between w-full">
                 <div class="flex items-center space-x-2 cursor-pointer shrink-0" onclick="location.href='index.html'">
